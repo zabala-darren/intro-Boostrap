@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF=8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+<meta name="viewport" content="witdth=device-width, initial-scale=10"/>
+<title>Intro to Bootstrap</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="BLUE">
+        <div class="container-fluid">
+            <img src="images/4.jpg" width="80" height="70" alt="">
+          <a class="navbar-brand" href="#">MOBILE LEGENDS BANG BANG</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Announcement">Announcement</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Courses">Courses</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/1.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 style="color: black;">MOBILE BANG BANG</h5>
+              <p style="color: black;">VERY GOOD GAME .</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 style="color: black;">WHAT MOBILE BANG BANG GAME</h5>
+              <p style="color: black;">Some representative creative game in the world.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/3.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 style="color: black;">mobile legends history</h5>
+              <p style="color: black;">Some representative good mobile games in history.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    <h1 id="Announcement" class="text-center pd-5 mt-5 mb-5">Announcement</h1>
+      <div class="container">
+        <div class="row">
+            <div class="col">
+              Mobile Legends: Bang Bang is a popular multiplayer online battle arena (MOBA) game developed and published by Moonton. It's available on both iOS and Android platforms. The game features two opposing teams of five players each, who must battle to destroy the enemy's base while defending their own.
+
+              Players select from a diverse roster of heroes, each with unique abilities and playstyles, to form their team composition. The game emphasizes teamwork, strategy, and skillful execution of tactics such as ganking, laning, and team fights.
+              
+              Mobile Legends has gained a massive player base globally, particularly in Southeast Asia, and has become a prominent title in the mobile gaming industry. It features regular updates, new hero releases, and seasonal events to keep the gameplay fresh and engaging for its community.
+                <button type="button" class="btn btn-primary btn-dark">Read more</button>
+            </div>
+            <div class="col">The Mobile Legends Professional League (MPL) is a professional esports league for the game Mobile Legends: Bang Bang. It serves as a platform for top players and teams to compete against each other in organized tournaments.
+
+              The MPL features regional leagues in various countries, with each league having its own set of teams competing for supremacy. These leagues often lead to larger international tournaments where teams from different regions compete against each other for larger prize pools and recognition.
+              
+              The MPL tournaments are highly competitive, with teams showcasing their skills, strategies, and teamwork in intense battles. The league has helped elevate Mobile Legends esports to a professional level, attracting a large audience of fans and spectators both online and at live events.
+              
+              Aside from providing a stage for players to compete, the MPL also contributes to the growth and development of the Mobile Legends esports scene by promoting talent, fostering community engagement, and expanding the game's reach in the competitive gaming landscape.
+                <button type="button" class="btn btn-primary btn-dark">Read more</button>
+            </div>
+            <div class="col">Mobile Legends follows the classic MOBA gameplay formula where two teams of five players each battle against each other on a map with three lanes and a jungle area. The primary objective is to destroy the enemy's base while protecting your own.
+                <button type="button" class="btn btn-primary btn-dark">Read more</button>
+            </div>
+        </div>
+      </div>
+      <h2 id="Courses" class="text-center pd-5 mt-5 mb-5">Courses</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-3">
+            <img src="images/1.png"  width="300" height="150" alt="" />
+            <h1>MOBILE BANG BANG</h1>
+            <p>
+              Overall, Mobile Legends: Bang Bang offers an accessible yet deep MOBA experience tailored for mobile devices, making it a favorite among gamers worldwide..
+            </p>
+            <button type="button" class="btn btn-primary">Read More</button>
+          </div>
+          <div class="col-3">
+            <img src="images/2.jpg"  width="300" height="150"  alt="" />
+            <h2>MPL Professional</h2>
+            <p>
+              The game regularly receives updates with new heroes, skins, features, and balance changes to keep the gameplay fresh and engaging. It also hosts various in-game events, collaborations, and seasonal content to keep players invested and entertained.
+            </p>
+            <button type="button" class="btn btn-primary">Read More</button>
+          </div>
+          <div class="col-3">
+            <img src="images/3.jpg"  width="300" height="150" alt="" />
+            <h3>Mobile legends</h3>
+            <p>
+              The game boasts a large and active player base, particularly in regions like Southeast Asia. It has a strong community presence on social media platforms, forums, and streaming platforms where players discuss strategies, share highlights, and connect with fellow fans..
+            </p>
+            <button type="button" class="btn btn-primary">Read More</button>
+          </div>
+          <div class="col-3">
+            <img src="images/4.jpg"  width="300" height="150" alt="" />
+            <h4>INTERNATIONAL GAMING</h4>
+            <p>
+              Mobile Legends offers a ranked mode where players can compete in more competitive matches to climb the ranks and earn rewards..
+            </p>
+            <button type="button" class="btn btn-primary">Read More</button>
+          </div>
+        </div>
+      </div>
+      <footer class="bg-body-tertiary text-center">
+        <div class="container p-4 pb-0">
+          <!-- Section: Social media -->
+          <section class="mb-4">
+            <!-- Facebook -->
+            <a
+              data-mdb-ripple-init
+              class="btn text-white btn-floating m-1"
+              style="background-color: #002066"
+              href="https://www.facebook.com/"
+              role="button"
+              ><i class="fa-brands fa-facebook"></i></i
+            ></a>
+  
+            <!-- Twitter -->
+            <a
+              data-mdb-ripple-init
+              class="btn text-white btn-floating m-1"
+              style="background-color: #686e73"
+              href="https://www.instagram.com/darrenbalaza?igsh=MTlvMWk4NHgweG5tOQ=="
+              role="button"
+              ><i class="fab fa-twitter"></i
+            ></a>
+  
+            <!-- Instagram -->
+            <a
+              data-mdb-ripple-init
+              class="btn text-white btn-floating m-1"
+              style="background-color: #000000"
+              href="https://x.com/darrenskrt?t=tKKU6TIfQFW7QTe074aXIw&s=07"
+              role="button"
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </section>
+          <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+  
+        <!-- Copyright -->
+        <div
+          class="text-center p-3"
+          style="background-color: rgba(255, 0, 0, 0.05)"
+        >
+          © 2024 Copyright:
+          <a class="text-body" href="#">Darren Zabala</a>
+        </div>
+      </footer>
+
+    
+</body>
